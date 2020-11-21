@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+       body{
+           background-color:#e6e2d3;
+  }
+
+       .giris {
+        color:black;
+        font-weight:bold;
+        text-align: center;
+        background-color:#221F1F;
+        height:auto;
+      }
+
+    .giris2 nav.nav a{
+      color:black;
+      text-decoration: none;
+      display: block;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    .giris2 nav.nav a:hover{
+       background-color: #3e3e3e;
+    }
+  @media only screen and (max-width: 600px)  {
+    .giris2 nav ul{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .giris2 nav ul li{
+      margin-top: 1rem;
+    }
+  }
+
+
+  .menu-container{
+    background-color:#ffcc5c;
+  }
+    .giris2{
+      height: auto;
+      align-items: center;
+      padding: 1rem;
+      max-width: 1100px;
+      margin: 0 auto;
+
+    }
+
+
+    .giris2 nav ul{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin: 0 1rem;
+    }
+
+    main{
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: sans-serif;
+    }
+    main ul li{
+      list-style-type: none;
+    }
+    .giris4{
+      max-width: 1100px;
+      margin: 0 auto;
+     }
+
+     .giris4 p {
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bolder;
+      color: grey;
+      text-align: center;
+      text-indent: 3%;
+      font-size: 20px ;
+      margin-top: 1rem;
+    }
+
+.hizmet1 {
+  margin-top: 1rem;
+}
+
+    footer{
+        text-align: center;
+        font-size: 15px;
+         font-family:-apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        color:black;
+        margin-top: 1rem;
+        background-color:#ffcc5c;
+        height: auto;
+        padding: 1rem;
+
+
+        }
+
+        #altkisim{
+          max-width: 1100px;
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+        }
+
+        #altkisim ul {
+          list-style-type: none;
+          display: flex;
+        }
+        #altkisim ul li{
+          margin-left: 0.5rem;
+        }
